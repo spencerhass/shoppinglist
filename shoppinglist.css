@@ -1,0 +1,96 @@
+
+body { position:absolute;
+width:100%;
+height:85%;
+margin:0;
+padding:0;
+background: url("http://i.stack.imgur.com/8zEoh.png");
+background-repeat:no-repeat;
+background-size:cover;
+font-size:1em;
+line-height:1}
+
+.container {
+position:relative;
+box-sizing:border-box;
+min-width:300px;
+max-width:680px;
+min-height:400px;
+margin:2em auto;
+border-radius:5px;
+background-color:white;
+}
+
+.row {overflow-y:auto;
+padding-right:2em;
+padding-left:2em;}
+
+.header {
+padding-top:0.8em;
+padding-bottom:0.4em;
+border-top-right-radius:5px;
+border-top-left-radius:5px;
+color:white;
+background-color: #3D3D3D;
+overflow-y:hidden}
+
+.title {
+float:left;
+margin-left:1em;
+margin-bottom:0.3em;
+font-size:3em;
+font-weight:800}
+
+#item {
+width:94%;
+margin: 1.2em 0.2em 0.6em 0;
+padding:0 0.15em;
+border-radius:3px;
+font-size:1.15em}
+
+.items {margin:0.6em 0 0.8em 0;
+padding-bottom:5em;}
+
+.item {padding:0.4em 0 0.4em 0.3em}
+
+#footer
+{float:left;
+display:inline-block;
+padding:0.8em;
+margin-right:0.5em;
+border-radius:3px;
+}
+
+.control {
+float:left;
+display:inline-block;
+padding:0.8em;
+margin-right:0.5em;
+border:1px solid #d0d0d0;
+border-radius:3px;
+background-color:#e9e9e9;
+color:#192823}
+
+
+.control:hover {background-color:#d0d0d0}
+
+
+.remover {color:ee7d88}
+
+.remover:hover {
+color:#dd1e2f}
+
+
+
+#count {float:right;
+vertical-align:text-top;
+margin-top:0.4em}
+
+a{text-decoration:none;
+padding:0;
+margin:0;
+line-height:0%}
+
+
+
+ol, ul, {list-style:none}
