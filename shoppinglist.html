@@ -1,9 +1,28 @@
 <!doctype html>
 <html>
-<link rel="stylesheet" href="shoppinglist.css">
-
-
 <head>
+
+	<link rel="stylesheet" href="shoppinglist.css">
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script id="list_item_template" type="text/template">	
+	<li class="item">
+	<div class="remover"><span class="icon-remove"></span></div>
+	<div class="checkbox"><span class="icon-checkbox"></span></div>
+	<span class="text" contenteditable="true">TEXT HERE</span>
+</li>
+</script>
+
+
+
+<script type="text/javascript" src="application.js"></script>
+
+
+
+
+
+
+
+</head>
 <body>
 
 <div class="container">
@@ -26,49 +45,5 @@
 	<div id="count"> 5 item(s)</div>
 </div>
 </div>	
-<script id="list_item_template" type="text/template">	
-<li class="item">
-	<div class="remover"><span class="icon-remove"></span></div>
-	<div class="checkbox"><span class="icon-checkbox"></span></div>
-	<span class="text" contenteditable="true"</span>
-</li>
-</script>
 
-
-
-<script type="text/javascript" src="application.js"></script>
 </body>
-</head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</html>
