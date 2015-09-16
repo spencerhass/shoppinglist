@@ -1,27 +1,10 @@
 <!doctype html>
 <html>
 <head>
-
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="shoppinglist.css">
 <script src="http://code.jquery.com/jquery.min.js"></script>
-<script id="list_item_template" type="text/template">	
-	<li class="item">
-	<div class="remover"><span class="icon-remove"></span></div>
-	<div class="checkbox"><span class="icon-checkbox"></span></div>
-	<span class="text" contenteditable="true">TEXT HERE</span>
-</li>
-</script>
-
-
-
 <script type="text/javascript" src="application.js"></script>
-
-
-
-
-
-
-
 </head>
 <body>
 
@@ -33,17 +16,46 @@
 <div class="row">
 	<input type="text" id="item" placeholder="milk. eggs, bread" autofocus />
 </div>
-
-<div class="row">	
-	<ul class="items">
+<div>
+	<ul class="list">
+		<li><span class="trash"></span>TEXT HERE<span class="notification"></span></li>
 	</ul>
-</div>
+</div>		
 
-<div id="footer" class="row">
-	<a href="#" id="check" class="control">Mark all checked</a>
-	<a href="#" id="remove" class="control">Remove all checked</a>
-	<div id="count"> 5 item(s)</div>
-</div>
 </div>	
 
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
