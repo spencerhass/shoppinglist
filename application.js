@@ -1,6 +1,7 @@
-$(document).ready(function(){
-	var trash= '<span class="trash"></span>';
-	var notification= '<span class="notification"></span>';
+$(document).ready(function() {
+
+var trash = '<span class="trash"></span>';
+var notification = '<span class="notification"></span>';
 
 
 
@@ -15,7 +16,7 @@ addItem();
 
 function postItem(){
 	var item = $('#item').val();
-	var placeIt = $('<li>' +trash + item + notification +'</li>');
+	var placeIt = $('<li>' + trash + item + notification +'</li>');
 	$('.list').prepend(placeIt);
 	$('#item').val('');
 }
@@ -25,10 +26,13 @@ $(document).on('click', '.trash', function() {
 });
 
 $(document).on('click', '.notification', function(){
-	$(this).toggleClass('checkmark');
-	$(this).closest('li').toggleClass('cross');
-})
+    $(this).toggleClass('checkmark');
+    $(this).closest('li').toggleClass('cross');
 });
+});
+
+ 
+
 
 
 

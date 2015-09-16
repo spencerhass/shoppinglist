@@ -18,6 +18,7 @@ min-height:400px;
 margin:2em auto;
 border-radius:5px;
 background-color:white;
+opacity:.9;
 }
 
 .row {overflow-y:auto;
@@ -80,9 +81,30 @@ line-height:0%}
 	background-size:contain;
 }
 
+
+.cross {
+	text-decoration: line-through;
+	opacity: .5;
+}
+
+
+
+.checkmark {
+	height: 20px;
+	width: 20px;
+	position: relative;
+	right: 16px;
+	top:5px;
+	cursor: pointer;
+	float: right;
+	background: url('checkmark.svg') no-repeat;
+    background-size: contain;	
+    text-decoration: line-through;
+}
+
 li, input {width:388px;
 height:35px;
-font-size:20px;
+font-size:1.2em;
 list-style:none;
 position:relative;
 right:20px;
