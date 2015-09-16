@@ -16,7 +16,7 @@ addItem();
 
 function postItem(){
 	var item = $('#item').val();
-	var placeIt = $('<li>' + trash + item + notification +'</li>');
+	var placeIt = $('<li>' + notification + '<span class="list-item">' + item + '</span>' + trash +'</li>');
 	$('.list').prepend(placeIt);
 	$('#item').val('');
 }
